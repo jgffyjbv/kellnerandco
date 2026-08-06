@@ -264,9 +264,8 @@ section{padding:104px 0}
 footer{background:var(--navy-950);color:#8fa0b8;position:relative;overflow:hidden}
 footer::after{content:"K";position:absolute;right:-30px;bottom:-120px;font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:26rem;line-height:1;color:rgba(247,249,252,.03);pointer-events:none}
 .f-top{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:50px;padding:72px 0 54px;position:relative}
-.f-mark{height:62px;width:auto;margin-bottom:16px;filter:drop-shadow(0 6px 16px rgba(0,0,0,.35))}
-.f-brand .name{font-family:Georgia,'Times New Roman',serif;font-size:1.9rem;font-weight:700;color:var(--ivory)}
-.f-brand .tag{font-size:.62rem;letter-spacing:.3em;text-transform:uppercase;margin-top:6px;color:var(--steel-soft);font-weight:600}
+.f-logo-chip{display:inline-block;background:#fff;border-radius:14px;padding:14px 22px;box-shadow:0 12px 32px -10px rgba(0,0,0,.5)}
+.f-logo-chip img{height:54px;width:auto;display:block}
 .f-brand p{margin-top:20px;font-size:.9rem;max-width:320px}
 .f-col h4{font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;color:var(--ivory);margin-bottom:20px;font-weight:600}
 .f-col h4::after{content:"";display:block;width:28px;height:2px;background:linear-gradient(90deg,var(--steel),var(--steel-soft));margin-top:10px;border-radius:2px}
@@ -648,9 +647,7 @@ footer::after{content:"K";position:absolute;right:-30px;bottom:-120px;font-famil
   <div class="container">
     <div class="f-top">
       <div class="f-brand">
-        <img class="f-mark" src="assets/logo-mark.png" alt="" width="150" height="158" loading="lazy">
-        <div class="name">Kellner &amp; Co.</div>
-        <div class="tag">Tax &bull; Accounting &bull; CFO Services</div>
+        <span class="f-logo-chip"><img src="assets/logo.png" alt="Kellner &amp; Co. — Tax, Accounting, CFO Services" width="442" height="158" loading="lazy"></span>
         <p>Comprehensive accounting, tax, and advisory services tailored to individuals and businesses. We are committed to your financial success.</p>
       </div>
       <div class="f-col">
