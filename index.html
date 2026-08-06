@@ -5,10 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Kellner &amp; Co. | Tax, Accounting &amp; CFO Services</title>
 <meta name="description" content="Kellner & Co. is a CPA firm providing tax preparation, tax planning, accounting, bookkeeping, payroll, and CFO advisory services for individuals and businesses. Accounting expertise. Financial confidence.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%230b1d3a'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='34' font-weight='bold' fill='%23c7d2e2' text-anchor='middle'%3EK%3C/text%3E%3C/svg%3E">
+<link rel="icon" type="image/png" href="assets/logo-mark.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="preload" as="image" href="assets/hero-towers.jpg">
 <script type="application/ld+json">
 {
@@ -57,7 +57,7 @@ a{color:inherit;text-decoration:none}
 section{scroll-margin-top:88px}
 ::selection{background:var(--steel);color:#fff}
 .container{max-width:1180px;margin:0 auto;padding:0 26px}
-.display{font-family:'Fraunces',Georgia,serif;font-weight:600;line-height:1.12;letter-spacing:-.01em}
+.display{font-family:Georgia,'Times New Roman',serif;font-weight:600;line-height:1.12;letter-spacing:-.01em}
 .kicker{display:inline-flex;align-items:center;gap:12px;font-weight:600;letter-spacing:.3em;text-transform:uppercase;font-size:.72rem;color:var(--steel-deep)}
 .kicker::before{content:"";width:34px;height:2px;background:linear-gradient(90deg,var(--steel),var(--steel-soft));border-radius:2px}
 
@@ -77,11 +77,9 @@ section{scroll-margin-top:88px}
 header.site{position:sticky;top:0;z-index:100;background:rgba(247,249,252,.92);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line);transition:box-shadow .3s}
 header.site.scrolled{box-shadow:var(--shadow-md)}
 header.site .container{display:flex;align-items:center;justify-content:space-between;min-height:80px;gap:24px}
-.brand{display:flex;align-items:center;gap:14px}
-.brand .mark{width:50px;height:50px;flex:none;transition:transform .4s var(--ease)}
-.brand:hover .mark{transform:rotate(-5deg) scale(1.04)}
-.brand .name{font-family:'Fraunces',Georgia,serif;font-size:1.62rem;font-weight:700;color:var(--navy-900);line-height:1}
-.brand .tag{display:block;font-size:.6rem;letter-spacing:.27em;text-transform:uppercase;color:var(--steel-deep);margin-top:5px;font-weight:600;white-space:nowrap}
+.brand{display:flex;align-items:center}
+.brand-logo{height:58px;width:auto;transition:transform .35s var(--ease)}
+.brand:hover .brand-logo{transform:scale(1.03)}
 nav.main{display:flex;align-items:center;gap:32px}
 nav.main a.link{font-size:.92rem;font-weight:500;color:var(--ink);position:relative;padding:6px 0;transition:color .2s;white-space:nowrap}
 nav.main a.link::after{content:"";position:absolute;left:0;bottom:0;width:0;height:2px;background:linear-gradient(90deg,var(--steel-deep),var(--steel-soft));transition:width .3s var(--ease)}
@@ -151,7 +149,7 @@ nav.main a.link:hover::after{width:100%}
 .strip .cell:nth-child(2) .ic{background:linear-gradient(135deg,#2dd4a8,#0f766e)}
 .strip .cell:nth-child(3) .ic{background:linear-gradient(135deg,#639af5,#2b56c9)}
 .strip .ic svg{width:23px;height:23px;stroke:#fff}
-.strip h3{font-family:'Fraunces',Georgia,serif;font-size:1.12rem;font-weight:700;color:var(--navy-900);margin-bottom:5px}
+.strip h3{font-family:Georgia,'Times New Roman',serif;font-size:1.12rem;font-weight:700;color:var(--navy-900);margin-bottom:5px}
 .strip p{font-size:.88rem;color:var(--muted)}
 
 /* ============ SECTIONS ============ */
@@ -182,7 +180,7 @@ section{padding:104px 0}
 .svc:hover::before{transform:scaleX(1)}
 .svc .ic{width:52px;height:52px;border-radius:13px;margin-bottom:22px;background:linear-gradient(135deg,var(--g1),var(--g2));display:grid;place-items:center;box-shadow:0 8px 20px -6px rgba(0,0,0,.4)}
 .svc .ic svg{width:25px;height:25px;stroke:#fff}
-.svc h3{font-family:'Fraunces',Georgia,serif;font-size:1.16rem;font-weight:700;color:var(--ivory);margin-bottom:9px}
+.svc h3{font-family:Georgia,'Times New Roman',serif;font-size:1.16rem;font-weight:700;color:var(--ivory);margin-bottom:9px}
 .svc p{font-size:.9rem;color:#a9bcd8}
 .svc.wide{grid-column:1/-1;display:flex;align-items:center;gap:26px;padding:30px 34px}
 .svc.wide .ic{margin-bottom:0}
@@ -205,7 +203,7 @@ section{padding:104px 0}
 .about-copy li .tick svg{width:14px;height:14px;stroke:var(--navy-600)}
 .quote-card{margin-top:38px;background:linear-gradient(140deg,var(--navy-900),var(--navy-700));border-radius:18px;padding:32px 34px;color:var(--ivory);position:relative;overflow:hidden;box-shadow:var(--shadow-md)}
 .quote-card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--steel-soft),var(--steel-deep))}
-.quote-card p.q{font-family:'Fraunces',Georgia,serif;font-size:1.28rem;line-height:1.5;font-weight:500}
+.quote-card p.q{font-family:Georgia,'Times New Roman',serif;font-size:1.28rem;line-height:1.5;font-weight:500}
 .quote-card .attr{margin-top:16px;font-size:.76rem;letter-spacing:.2em;text-transform:uppercase;color:var(--steel-soft);font-weight:600}
 
 /* ============ PROCESS ============ */
@@ -214,8 +212,8 @@ section{padding:104px 0}
 .steps::before{content:"";position:absolute;top:52px;left:14%;right:14%;border-top:2px dashed rgba(36,80,143,.4)}
 .step{position:relative;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:42px 32px 36px;transition:transform .35s var(--ease),box-shadow .35s}
 .step:hover{transform:translateY(-6px);box-shadow:var(--shadow-md)}
-.step .num{font-family:'Fraunces',Georgia,serif;font-weight:700;font-size:1.15rem;width:52px;height:52px;border-radius:50%;display:grid;place-items:center;margin-bottom:24px;color:var(--navy-950);background:linear-gradient(135deg,#d7e0ec,#93a5bd);box-shadow:0 0 0 7px #fff,0 8px 20px -6px rgba(36,80,143,.5);position:relative;z-index:1}
-.step h3{font-family:'Fraunces',Georgia,serif;font-size:1.22rem;font-weight:700;color:var(--navy-900);margin-bottom:10px}
+.step .num{font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:1.15rem;width:52px;height:52px;border-radius:50%;display:grid;place-items:center;margin-bottom:24px;color:var(--navy-950);background:linear-gradient(135deg,#d7e0ec,#93a5bd);box-shadow:0 0 0 7px #fff,0 8px 20px -6px rgba(36,80,143,.5);position:relative;z-index:1}
+.step h3{font-family:Georgia,'Times New Roman',serif;font-size:1.22rem;font-weight:700;color:var(--navy-900);margin-bottom:10px}
 .step p{font-size:.93rem;color:var(--muted)}
 
 /* ============ CTA BAND ============ */
@@ -229,7 +227,7 @@ section{padding:104px 0}
 .cta-band p{color:#cbd9ea;margin:18px 0 36px;max-width:520px;font-size:1.04rem}
 .cta-band .cta-row{display:flex;gap:16px;flex-wrap:wrap}
 .cta-badge{justify-self:end;background:rgba(247,249,252,.06);border:1px solid rgba(199,210,226,.35);border-radius:20px;padding:34px 36px;backdrop-filter:blur(8px);max-width:330px}
-.cta-badge .big{font-family:'Fraunces',Georgia,serif;font-size:1.5rem;font-weight:700;color:var(--ivory);line-height:1.3}
+.cta-badge .big{font-family:Georgia,'Times New Roman',serif;font-size:1.5rem;font-weight:700;color:var(--ivory);line-height:1.3}
 .cta-badge .sm{margin-top:12px;font-size:.88rem;color:#cbd9ea}
 .cta-badge a{display:inline-flex;margin-top:22px;color:var(--steel-soft);font-weight:600;font-size:1.25rem;letter-spacing:.03em;border-bottom:2px solid rgba(199,210,226,.4);transition:border-color .2s}
 .cta-badge a:hover{border-color:var(--steel-soft)}
@@ -251,7 +249,7 @@ section{padding:104px 0}
 .c-photo img{width:100%;height:210px;object-fit:cover}
 .c-photo .cap{position:absolute;inset:auto 0 0 0;background:linear-gradient(transparent,rgba(7,20,43,.85));color:#e7f0ea;font-size:.85rem;padding:34px 20px 14px}
 .form-card{background:linear-gradient(180deg,#fff,#f9fbfd);border:1px solid var(--line);border-radius:22px;padding:46px 44px;box-shadow:var(--shadow-lg)}
-.form-card h3{font-family:'Fraunces',Georgia,serif;font-size:1.55rem;font-weight:700;color:var(--navy-900);margin-bottom:6px}
+.form-card h3{font-family:Georgia,'Times New Roman',serif;font-size:1.55rem;font-weight:700;color:var(--navy-900);margin-bottom:6px}
 .form-card .fc-sub{font-size:.92rem;color:var(--muted);margin-bottom:30px}
 .f-row{display:grid;grid-template-columns:1fr 1fr;gap:18px}
 .f-field{margin-bottom:18px}
@@ -264,9 +262,10 @@ section{padding:104px 0}
 
 /* ============ FOOTER ============ */
 footer{background:var(--navy-950);color:#8fa0b8;position:relative;overflow:hidden}
-footer::after{content:"K";position:absolute;right:-30px;bottom:-120px;font-family:'Fraunces',Georgia,serif;font-weight:700;font-size:26rem;line-height:1;color:rgba(247,249,252,.03);pointer-events:none}
+footer::after{content:"K";position:absolute;right:-30px;bottom:-120px;font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:26rem;line-height:1;color:rgba(247,249,252,.03);pointer-events:none}
 .f-top{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:50px;padding:72px 0 54px;position:relative}
-.f-brand .name{font-family:'Fraunces',Georgia,serif;font-size:1.9rem;font-weight:700;color:var(--ivory)}
+.f-mark{height:62px;width:auto;margin-bottom:16px;filter:drop-shadow(0 6px 16px rgba(0,0,0,.35))}
+.f-brand .name{font-family:Georgia,'Times New Roman',serif;font-size:1.9rem;font-weight:700;color:var(--ivory)}
 .f-brand .tag{font-size:.62rem;letter-spacing:.3em;text-transform:uppercase;margin-top:6px;color:var(--steel-soft);font-weight:600}
 .f-brand p{margin-top:20px;font-size:.9rem;max-width:320px}
 .f-col h4{font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;color:var(--ivory);margin-bottom:20px;font-weight:600}
@@ -293,7 +292,7 @@ footer::after{content:"K";position:absolute;right:-30px;bottom:-120px;font-famil
 @media(max-width:1150px){
   nav.main{position:fixed;inset:0;background:rgba(7,20,43,.97);backdrop-filter:blur(16px);flex-direction:column;justify-content:center;gap:8px;opacity:0;visibility:hidden;transition:opacity .35s,visibility .35s;z-index:120}
   nav.main.open{opacity:1;visibility:visible}
-  nav.main a.link{color:var(--ivory);font-size:1.25rem;padding:14px 0;font-family:'Fraunces',Georgia,serif}
+  nav.main a.link{color:var(--ivory);font-size:1.25rem;padding:14px 0;font-family:Georgia,'Times New Roman',serif}
   nav.main a.link:hover{color:var(--steel-soft)}
   nav.main .btn{margin-top:22px;padding:16px 30px;font-size:.8rem}
   .menu-toggle{display:block}
@@ -357,27 +356,7 @@ footer::after{content:"K";position:absolute;right:-30px;bottom:-120px;font-famil
 <header class="site" id="siteHeader">
   <div class="container">
     <a class="brand" href="#top" aria-label="Kellner and Co home">
-      <svg class="mark" viewBox="0 0 64 64" aria-hidden="true">
-        <defs>
-          <linearGradient id="ring2" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0" stop-color="#e7edf5"/><stop offset=".5" stop-color="#93a5bd"/><stop offset="1" stop-color="#d7e0ec"/>
-          </linearGradient>
-          <linearGradient id="face2" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0" stop-color="#16305e"/><stop offset="1" stop-color="#0b1d3a"/>
-          </linearGradient>
-        </defs>
-        <circle cx="32" cy="32" r="31" fill="url(#ring2)"/>
-        <circle cx="32" cy="32" r="26.5" fill="url(#face2)"/>
-        <path d="M22 16v32h6.5V36.6l4-4.4 9.4 15.8h7.6L36.9 27.6 48.5 16h-8.2L28.5 28.9V16z" fill="#dde5f0"/>
-        <g fill="#8fa3bf">
-          <rect x="41" y="40" width="3" height="8" rx="1"/>
-          <rect x="46" y="35" width="3" height="13" rx="1"/>
-        </g>
-      </svg>
-      <span>
-        <span class="name">Kellner &amp; Co.</span>
-        <span class="tag">Tax &middot; Accounting &middot; CFO Services</span>
-      </span>
+      <img class="brand-logo" src="assets/logo.png" alt="Kellner &amp; Co. — Tax, Accounting, CFO Services" width="442" height="158" fetchpriority="high">
     </a>
     <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
@@ -532,7 +511,7 @@ footer::after{content:"K";position:absolute;right:-30px;bottom:-120px;font-famil
         </ul>
         <div class="quote-card reveal">
           <p class="q">&ldquo;Strategic solutions. Lasting results. We are committed to your financial success — every step of the way.&rdquo;</p>
-          <div class="attr">Kellner &amp; Co. &middot; Tax &middot; Accounting &middot; CFO Services</div>
+          <div class="attr">Kellner &amp; Co. &bull; Tax &bull; Accounting &bull; CFO Services</div>
         </div>
       </div>
     </div>
@@ -669,8 +648,9 @@ footer::after{content:"K";position:absolute;right:-30px;bottom:-120px;font-famil
   <div class="container">
     <div class="f-top">
       <div class="f-brand">
+        <img class="f-mark" src="assets/logo-mark.png" alt="" width="150" height="158" loading="lazy">
         <div class="name">Kellner &amp; Co.</div>
-        <div class="tag">Tax &middot; Accounting &middot; CFO Services</div>
+        <div class="tag">Tax &bull; Accounting &bull; CFO Services</div>
         <p>Comprehensive accounting, tax, and advisory services tailored to individuals and businesses. We are committed to your financial success.</p>
       </div>
       <div class="f-col">
